@@ -97,5 +97,22 @@ window.DocumentRepository.data = [
             { name: "BT29", url: "https://www.polarissemiconductor.com/bt29" }
         ],
         pdfUrl: "https://www.polarissemiconductor.com/s/PolarisWhitepaper_PSWP001_June2025.pdf"
+    },
+    {
+        id: 7,
+        slug: "bk-prod-tab",
+        title: "Polaris Buck Regulators: Full Product Table",
+        excerpt: "An up-to-date listing of all Polaris Semiconductor DC step-down voltage regulator products, along with relevant figures of merit for comparison purposes...",
+        abstract: "An up-to-date listing of all Polaris Semiconductor DC step-down voltage regulator products, along with relevant figures of merit for comparison purposes. For more detailed information, please review the Product Family Spotlight documents or get in touch with us for access to our full product datasheets.",
+        date: "June 11, 2025",
+        type: "technology-overview",
+        typeLabel: "Technology Overview",
+        products: ["BK29", "BK30", "BK19"],
+        productData: [
+            { name: "BK29", url: "https://www.polarissemiconductor.com/bk29" },
+            { name: "BK30", url: "https://www.polarissemiconductor.com/bk30" },
+            { name: "BK19", url: "https://www.polarissemiconductor.com/bk19" }
+        ],
+        pdfUrl: "https://www.polarissemiconductor.com/s/PolarisWhitepaper_PSWP001_June2025.pdf"
     }
 ];
