@@ -114,7 +114,7 @@ window.DocumentRepository.data = [
             { name: "BK19", url: "https://www.polarissemiconductor.com/bk19" }
         ],
         pdfUrl: "https://www.polarissemiconductor.com/s/Buck-Regulator-Product-Table.pdf"
-    }
+    },
     {
         id: 8,
         slug: "PSAN001",
@@ -131,4 +131,5 @@ window.DocumentRepository.data = [
         pdfUrl: "https://www.polarissemiconductor.com/s/PolarisAppNote_PSAN001_Sept2025.pdf"
     }
 ];
+
 
