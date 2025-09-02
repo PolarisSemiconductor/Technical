@@ -113,6 +113,22 @@ window.DocumentRepository.data = [
             { name: "BK30", url: "https://www.polarissemiconductor.com/bk30" },
             { name: "BK19", url: "https://www.polarissemiconductor.com/bk19" }
         ],
-        pdfUrl: "https://www.polarissemiconductor.com/s/PolarisWhitepaper_PSWP001_June2025.pdf"
+        pdfUrl: "https://www.polarissemiconductor.com/s/Buck-Regulator-Product-Table.pdf"
+    }
+    {
+        id: 8,
+        slug: "PSAN001",
+        title: "Switching-Free Boost Regulators: A Compact, All-Linear Solution to Stepping-Up Voltage",
+        excerpt: "This application note details the design of a compact, efficient, and switching-free boost regulator using the BT291D50M for single-cell Li-ion applications, all within a tiny 12.5 mm × 7.5 mm solution size...",
+        abstract: "In many electronics markets, particularly in battery-powered portable systems, DC boost voltage regulators are essential for providing a regulated voltage that is higher than the input voltage. Traditional boost technologies like inductor-based converters and switched-capacitor converters often force engineers to make trade-offs between efficiency, noise, and size.<br><br>This application note introduces the Enhanced Linear Regulator (ELR) from Polaris Semiconductor as a compact, all-linear solution for stepping up voltage without the drawbacks of traditional switching converters. The note is intended to showcase a single-stage boost regulator design that avoids the electromagnetic interference (EMI) and noise issues associated with incumbent technologies.<br><br>The Polaris ELR directly addresses these challenges by offering a new architecture for efficient step-up conversion that is entirely switching-free and inductorless. Through the BT291D50M \"Tiny Boost\" example, we demonstrate how this technology delivers a regulated 5V output from a single-cell Li-based source with a total solution size of 12.5×7.5×1.2 mm3 and efficiencies between 55% and 65%. The ELR achieves noise and ripple rejection performance nearly indistinguishable from its underlying LDO, making it ideal for noise-sensitive and space-constrained applications like medical wearables and IoT devices.",
+        date: "September 2, 2025",
+        type: "application-notes",
+        typeLabel: "Application Note",
+        products: ["BT29"],
+        productData: [
+            { name: "BT29", url: "https://www.polarissemiconductor.com/bt29" }
+        ],
+        pdfUrl: "https://www.polarissemiconductor.com/s/PolarisAppNote_PSAN001_Sept2025.pdf"
     }
 ];
+
