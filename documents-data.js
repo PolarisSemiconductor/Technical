@@ -129,7 +129,23 @@ window.DocumentRepository.data = [
             { name: "BT29", url: "https://www.polarissemiconductor.com/bt29" }
         ],
         pdfUrl: "https://www.polarissemiconductor.com/s/PolarisAppNote_PSAN001_Sept2025.pdf"
+    },
+    {
+        id: 9,
+        slug: "PSAN002",
+        title: "Designing a Switching-Free Boost Regulation and Battery Charging Solution for Single-Cell Li-Ion",
+        excerpt: "Discover a compact, inductor-less power solution for single-cell Li-ion systems. This design demonstrates a switching-free 5V boost and charger architecture that completely eliminates EMI for noise-sensitive electronics...",
+        abstract: "Engineers designing power systems for sensitive portable electronics often face a difficult trade-off: boosting single-cell Li-ion voltage to 5V typically requires switching regulators, which introduce detrimental electromagnetic interference (EMI) and require bulky inductors . This application note presents a breakthrough, all-linear solution that eliminates these compromises. By integrating Polaris Semiconductor’s BT291D50M—a patented optocoupler-enhanced linear boost regulator—with Texas Instruments’ BQ25185 linear charger, we demonstrate a fully switching-free power architecture.<br><br>Unlike traditional topologies, this inductor-less design utilizes internal photovoltaic transfer to boost voltage, ensuring a regulated 5V output with zero switching noise and high Power Supply Ripple Rejection (PSRR) . The document provides a comprehensive reference design, including schematics and thermal performance data, proving the system's viability for demanding applications. This approach offers a streamlined Bill of Materials (BoM) and a compact footprint, making it the ideal power solution for next-generation medical wearables, precision sensors, and RF transceivers where signal integrity is non-negotiable.",
+        date: "November 20, 2025",
+        type: "application-notes",
+        typeLabel: "Application Note",
+        products: ["BT29"],
+        productData: [
+            { name: "BT29", url: "https://www.polarissemiconductor.com/bt29" }
+        ],
+        pdfUrl: "https://www.polarissemiconductor.com/s/PolarisAppNote_PSAN002_Nov2025.pdf"
     }
 ];
+
 
 
