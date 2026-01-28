@@ -144,8 +144,26 @@ window.DocumentRepository.data = [
             { name: "BT29", url: "https://www.polarissemiconductor.com/bt29" }
         ],
         pdfUrl: "https://www.polarissemiconductor.com/s/PolarisAppNote_PSAN002_Nov2025.pdf"
+    },
+    {
+        id: 10,
+        slug: "PSAN003",
+        title: "Keep It Simple: Paralleling Enhanced Linear Regulators for Scalable Output Current",
+        excerpt: "Scale ELR output current with simple, low-cost paralleling techniques. Includes op-amp and ballast resistor designs with complete schematics, BOMs, and test data for buck and boost configurations...",
+        abstract: "Enhanced linear regulators (ELRs) deliver significant efficiency advantages over conventional linear regulators while maintaining the low-noise characteristics essential for sensitive analog and RF applications. However, single-device current limits may not satisfy the demands of power-hungry systems. This application note presents practical, low-cost circuit designs for paralleling Polaris Semiconductor's ELR product families to achieve scalable output current beyond individual device ratings.<br><br>We detail op-amp-based active current balancing techniques for the BK29 series step-down and BT29 series step-up ELRs. For ultra-low-noise applications using the BK30 series, we demonstrate a simplified ballast resistor approach that eliminates the need for an op-amp while maintaining excellent current matching. Each design includes complete schematics, bills of materials, and PCB layouts suitable for low-cost two-layer fabrication.<br><br>Experimental results confirm that parallel operation not only extends current capability but also reduces device operating temperature through improved thermal spreading and lowers output noise through statistical averaging of uncorrelated noise sources. These straightforward paralleling techniques provide designers with flexible building blocks for demanding noise-sensitive, high-current applications.",
+        date: "January 29, 2026",
+        type: "application-notes",
+        typeLabel: "Application Note",
+        products: ["BK29"],["BT29"],["BK30"]
+        productData: [
+            { name: "BK29", url: "https://www.polarissemiconductor.com/bk29" },
+            { name: "BT29", url: "https://www.polarissemiconductor.com/bt29" },
+            { name: "BK30", url: "https://www.polarissemiconductor.com/bk30" }
+        ],
+        pdfUrl: "https://www.polarissemiconductor.com/s/PolarisAppNote_PSAN003_Jan2026.pdf"
     }
 ];
+
 
 
 
