@@ -154,7 +154,7 @@ window.DocumentRepository.data = [
         date: "January 29, 2026",
         type: "application-notes",
         typeLabel: "Application Note",
-        products: ["BK29"],["BT29"],["BK30"]
+        products: ["BK29", "BT29", "BK30"], 
         productData: [
             { name: "BK29", url: "https://www.polarissemiconductor.com/bk29" },
             { name: "BT29", url: "https://www.polarissemiconductor.com/bt29" },
@@ -163,6 +163,7 @@ window.DocumentRepository.data = [
         pdfUrl: "https://www.polarissemiconductor.com/s/PolarisAppNote_PSAN003_Jan2026.pdf"
     }
 ];
+
 
 
 
