@@ -161,8 +161,24 @@ window.DocumentRepository.data = [
             { name: "BK30", url: "https://www.polarissemiconductor.com/bk30" }
         ],
         pdfUrl: "https://www.polarissemiconductor.com/s/PolarisAppNote_PSAN003_Jan2026.pdf"
+    },
+    {
+        id: 11,
+        slug: "PSAN004",
+        title: "Designing for Multiple Power Sources: Seamless Performance Optimization with Enhanced Linear Regulators",
+        excerpt: "Maintain ultra-low noise and efficient linear regulation across USB and battery inputs with a single adaptive ELR. This application note presents an automatic dual-mode switching technique...",
+        abstract: "Portable electronics operating from both USB and battery power sources face a fundamental trade-off: linear regulators deliver pristine noise performance from low-headroom battery inputs but suffer severe efficiency penalties at higher USB voltages, while switching pre-regulators recover efficiency at the cost of electromagnetic interference. This application note presents an adaptive dual-mode regulation technique using the Polaris Semiconductor BK301D33L enhanced linear regulator that eliminates this compromise.<br><br>The design automatically transitions between optocoupler-enhanced mode for higher input voltages—where integrated GaAs photovoltaic devices recycle energy normally lost as heat—and conventional bypass mode for lower input voltages where the LDO already operates efficiently. A simple control circuit built around a TI TPS2117 power multiplexer and TLV4041 precision comparator manages source selection and mode switching with sub-30 µs transition times and minimal output voltage perturbation.<br><br>Measured results demonstrate 86% efficiency from a 3.7 V battery and 73% from 5 V USB (versus 63% for a conventional LDO), with output noise below 1 µV<sub>RMS</sub> and zero switching content in both modes. At 500 mA, enhanced mode reduces power dissipation by 36% and peak board temperature by 11.5°C compared to conventional LDO operation. The complete reference design—including schematic, bill of materials, and PCB layout—replaces bulky two-stage buck-plus-LDO architectures with a compact, single-regulator solution for noise-critical portable instruments, medical devices, and RF systems.",
+        date: "March 2, 2026",
+        type: "application-notes",
+        typeLabel: "Application Note",
+        products: ["BK30"], 
+        productData: [
+            { name: "BK30", url: "https://www.polarissemiconductor.com/bk30" }
+        ],
+        pdfUrl: "https://www.polarissemiconductor.com/s/PolarisAppNote_PSAN004_Mar2026.pdf"
     }
 ];
+
 
 
 
